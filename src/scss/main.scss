@@ -1,0 +1,13 @@
+/* Base */
+@import './base/reset'; 
+@import './base/vars';
+@import './base/fonts';
+@import './base/global';
+@import './base/libs';
+
+/* Blocks */
+@import './blocks/*.scss';
+
+/* Адаптивность */
+@import './base/media';
+

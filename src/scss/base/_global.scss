@@ -1,0 +1,34 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Cormorant medium';
+	font-weight: 500;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 140%;
+	color: $textBlack;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+	overflow-x: hidden;	// Чтобы не было горизонтального скролла на мобилках из-за менюшек
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+// Подвал прижат к низу страницы
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+	max-width: 1310px; // Контейнер по макету 1280 px, но плюс padding слева и справа по 15 = ширина макета 1310 (1280 + 30 = 1310)
+	margin: 0 auto;
+	padding: 0 15px;
+}

@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Futura';
+	src: url('../../font/futura_pt_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../../font/futura_pt_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../../font/futura_pt_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../../font/futura_pt_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../../font/futura_pt_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../../font/futura_pt_light.svg#futura_pt_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Cormorant medium';
+	src: url('../../font/cormorant_garamond_medium.eot');
+	src: url('../../font/cormorant_garamond_medium.eot?#iefix') format('embedded-opentype'),
+		url('../../font/cormorant_garamond_medium.woff2') format('woff2'),
+		url('../../font/cormorant_garamond_medium.woff') format('woff'),
+		url('../../font/cormorant_garamond_medium.ttf') format('truetype'),
+		url('../../font/cormorant_garamond_medium.svg#cormorant_garamond_medium') format('svg');
+		font-weight: 500;
+		font-style: normal
+}
+
+@font-face {
+	font-family: 'Cormorant light';
+	src: url('../../font/cormorant_garamond_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../../font/cormorant_garamond_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../../font/cormorant_garamond_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../../font/cormorant_garamond_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../../font/cormorant_garamond_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../../font/cormorant_garamond_light.svg#cormorant_garamond_light') format('svg'); /* Chrome < 4, Legacy iOS */
+		font-weight: 300;
+		font-style: normal
+}
+
+@font-face {
+	font-family: 'Cormorant Light Italic';
+	src: url('../../font/CormorantGaramond-LightItalic.eot');
+	src: url('../../font/CormorantGaramond-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../../font/CormorantGaramond-LightItalic.woff') format('woff'),
+		url('../../font/CormorantGaramond-LightItalic.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
