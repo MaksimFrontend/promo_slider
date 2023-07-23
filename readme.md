@@ -29,5 +29,7 @@
 
 10 - git push - заливаем изменения на GitHub
 
+11 - git clone адрес SSH ключа, например - git clone git@github.com:MaksimFrontend/My-Start-Base.git - склонирует репозиторий в папку в которой я нахожусь
+
 
 
