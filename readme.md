@@ -18,3 +18,12 @@
 
 6 - git merge name - Слияние ветки name с веткой master. Слияние веток производится из ветки master
 
+7 - git config --global user.name - Ваше Имя на GitHub
+  - git config --global user.name "name" - Изменить Ваше имя на GitHub
+  - git config --global user.email - Ваш Email
+  - git config --global user.email "name" - Изменить Ваш email
+
+8 - Создаём репозиторий у себя на GitHub и в терминале забиваем команду - git remote add origin git@github.com:MaksimFrontend/My-Start-Base.git - Имя проекта будет всегда менятся, эту строку копируем после создания репозитория из GitHub
+
+9 - Пушим изменения командой - git push -u origin master
+
