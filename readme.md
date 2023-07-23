@@ -16,3 +16,5 @@
   - git branch -D name - Удаляем ветку с именем name
   - git checkout name - Переходим в ветку name
 
+6 - git merge name - Слияние ветки name с веткой master. Слияние веток производится из ветки master
+
