@@ -25,5 +25,9 @@
 
 8 - Создаём репозиторий у себя на GitHub и в терминале забиваем команду - git remote add origin git@github.com:MaksimFrontend/My-Start-Base.git - Имя проекта будет всегда менятся, эту строку копируем после создания репозитория из GitHub
 
-9 - Пушим изменения командой - git push -u origin master
+9 - Заливаем проект на github командой - git push -u origin master
+
+10 - git push - заливаем изменения на GitHub
+
+
 
