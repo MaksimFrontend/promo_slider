@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Тёмный цвет фона
 $backgroundDark: #484A4A;
 
@@ -14,4 +15,22 @@ $textBlack: #000000;
 	font-weight: 500;
 	line-height: 140%;
 	text-transform: uppercase;
+=======
+// Тёмный цвет фона
+$backgroundDark: #484A4A;
+
+// Цвет основного светлого текста (на тёмном фоне)
+$textWhite: rgba(#ffffff, .6);
+
+// Цвет основного тёмного текста (на белом фоне)
+$textBlack: #000000;
+
+// Шрифт Заголовков h2
+%title-font {
+	font-family: 'Arial', sans-serif;
+	font-size: 44px;
+	font-weight: 500;
+	line-height: 140%;
+	text-transform: uppercase;
+>>>>>>> d7db29703f73a539a2df529c916dee8ba266e944
 }

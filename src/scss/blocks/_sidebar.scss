@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sidebar {
    height: 100%;
    width: 35%;
@@ -21,4 +22,29 @@
    font-size: 40px;
    margin-bottom: 10px;
    margin-top: -30px;
+=======
+.sidebar {
+   height: 100%;
+   width: 35%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: transform 0.5s ease-in-out;
+ }
+
+ .sidebar > div {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+ }
+
+ .sidebar h1 {
+   font-size: 40px;
+   margin-bottom: 10px;
+   margin-top: -30px;
+>>>>>>> d7db29703f73a539a2df529c916dee8ba266e944
  }

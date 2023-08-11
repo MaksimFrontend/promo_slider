@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -44,4 +45,52 @@
 	</div>
    <script src="./js/index.bundle.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+   <link rel="stylesheet" href="./css/main.css"> <!--Подключаем стили относительно конечной папки docs-->
+   <title>Слайдер</title>
+</head>
+<body>
+   
+   <div class="wrapper">
+
+		<main class="main">
+         <div class="container">
+            <div class="sidebar">
+               @@include('./blocks/sidebar/black_sidebar.html')
+               @@include('./blocks/sidebar/purple_sidebar.html')
+               @@include('./blocks/sidebar/turquoise_sidebar.html')
+               @@include('./blocks/sidebar/red_sidebar.html')
+               @@include('./blocks/sidebar/blue_sidebar.html')
+               @@include('./blocks/sidebar/yellow_sidebar.html')         
+            </div>
+
+            <div class="main-slide">   
+               @@include('./blocks/main_slide/yellow_slide.html')
+               @@include('./blocks/main_slide/blue_slide.html')
+               @@include('./blocks/main_slide/red_slide.html')
+               @@include('./blocks/main_slide/turquoise_slide.html')
+               @@include('./blocks/main_slide/purple_slide.html')
+               @@include('./blocks/main_slide/black_slide.html') 
+            </div>
+
+            <div class="controls">
+               <button class="down-button">
+               <i class="fas fa-arrow-down"></i>
+               </button>
+               <button class="up-button">
+               <i class="fas fa-arrow-up"></i>
+               </button>
+            </div>
+         </div>
+		</main>
+	</div>
+   <script src="./js/index.bundle.js"></script>
+</body>
+>>>>>>> d7db29703f73a539a2df529c916dee8ba266e944
 </html>

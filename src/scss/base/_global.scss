@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
 	height: 100%;
@@ -13,4 +14,21 @@ body {
   	overflow: hidden;
   	width: 100vw;
   	height: 100vh;
+=======
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	height: 100vh;
+}
+
+.container{
+	position: relative;
+  	overflow: hidden;
+  	width: 100vw;
+  	height: 100vh;
+>>>>>>> d7db29703f73a539a2df529c916dee8ba266e944
 }
