@@ -2,9 +2,7 @@ const config = {
    mode: 'production', // Определяем режим работы - production, еще бывает режим работы - development
 
    entry: {
-      index: './src/js/index.js',      // Здесь указывается файл, который мы будем обрабатывать. Для каждой страницы сайта свой JS файл. Название и путь
-      // contacts: './src/js/contacts.js',
-      // about: './src/js/about.js',
+      index: './src/js/index.js', // Здесь указывается файл, который мы будем обрабатывать. Для каждой страницы сайта свой JS файл. Название и путь
    },
 
    output: {
